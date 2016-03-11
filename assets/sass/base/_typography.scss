@@ -64,6 +64,18 @@
 		font-style: italic;
 	}
 
+	span.rev {
+		background-color: _palette(fg-bold);
+		color: _palette(bg);
+	}
+
+	span.box {
+		padding: 1px;
+		border-color: _palette(fg-bold);
+		border-style: solid;
+		border-width: _size(border-width) 0 _size(border-width) _size(border-width);
+	}
+
 	p {
 		margin: 0 0 _size(element-margin) 0;
 	}
