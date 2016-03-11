@@ -11,11 +11,11 @@ const config = {
 }
 
 gulp.task('sass', () => {
-    return gulp.src(`${config.dir.sass}/*.scss`)
+    return gulp.src(`${config.dir.sass}/**/*.scss`)
         .pipe(sass().on('error', sass.logError))
         .pipe(gulp.dest(config.dir.css));
 });
 
 gulp.task('sass:watch', () => {
-    gulp.watch(`${config.dir.sass}/*.scss`, ['sass']);
+    gulp.watch(`${config.dir.sass}/**/*.scss`, ['sass']);
 });
