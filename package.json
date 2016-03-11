@@ -1,0 +1,24 @@
+{
+  "name": "techbookfest.github.io",
+  "version": "0.1.0",
+  "description": "技術書典のWebサイト",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp sass",
+    "watch": "gulp sass:watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/techbookfest/techbookfest.github.io.git"
+  },
+  "author": "TechBooster",
+  "bugs": {
+    "url": "https://github.com/techbookfest/techbookfest.github.io/issues"
+  },
+  "homepage": "https://github.com/techbookfest/techbookfest.github.io#readme",
+  "private": true,
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.2.0"
+  }
+}
