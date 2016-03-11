@@ -41,7 +41,8 @@
 	@include breakpoint(medium) {
 		#bg {
 			img {
-				max-height: none;
+				left: 0;
+				max-width: none;
 			}
 
 			.bg-image--under-medium {

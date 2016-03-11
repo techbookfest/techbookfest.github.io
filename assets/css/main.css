@@ -124,7 +124,8 @@ body {
 
 @media screen and (max-width: 980px) {
   #bg img {
-    max-height: none; }
+    left: 0;
+    max-width: none; }
   #bg .bg-image--under-medium {
     visibility: visible; }
   #bg .bg-image--upper-medium {
