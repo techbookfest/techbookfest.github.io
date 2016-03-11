@@ -64,12 +64,12 @@
 		font-style: italic;
 	}
 
-	span.rev {
+	.rev {
 		background-color: _palette(fg-bold);
 		color: _palette(bg);
 	}
 
-	span.box {
+	.box {
 		padding: 1px;
 		border-color: _palette(fg-bold);
 		border-style: solid;

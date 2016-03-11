@@ -174,11 +174,11 @@ strong, b {
 em, i {
   font-style: italic; }
 
-span.rev {
+.rev {
   background-color: #000;
   color: #fff; }
 
-span.box {
+.box {
   padding: 1px;
   border-color: #000;
   border-style: solid;
