@@ -116,16 +116,18 @@ body {
     height: auto;
     max-width: 100%;
     max-height: 100%; }
-    #bg img::after {
-      content: "";
-      display: block;
-      position: absolute;
-      left: 0;
-      width: 30px;
-      height: 100%;
-      background-image: linear-gradient(to left, transparent, #000 85%); }
+  #bg .bg-image--under-medium {
+    visibility: hidden; }
   body.is-loading #bg {
     opacity: 0; }
+
+@media screen and (max-width: 980px) {
+  #bg img {
+    max-height: none; }
+  #bg .bg-image--under-medium {
+    visibility: visible; }
+  #bg .bg-image--upper-medium {
+    visibility: hidden; } }
 
 /* Type */
 body, input, select, textarea {
@@ -409,42 +411,6 @@ button,
 @media screen and (max-width: 480px) {
   #header {
     margin: 0 0 1em 0; } }
-
-/* Signup Form */
-#signup-form {
-  display: -moz-flex;
-  display: -webkit-flex;
-  display: -ms-flex;
-  display: flex;
-  position: relative; }
-  #signup-form input[type="text"],
-  #signup-form input[type="password"],
-  #signup-form input[type="email"] {
-    width: 18em; }
-  #signup-form > * {
-    margin: 0 0 0 1em; }
-  #signup-form > :first-child {
-    margin: 0 0 0 0; }
-  @media screen and (max-width: 480px) {
-    #signup-form {
-      -moz-flex-direction: column;
-      -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-      flex-direction: column; }
-      #signup-form input[type="type"],
-      #signup-form input[type="password"],
-      #signup-form input[type="email"] {
-        width: 100%; }
-      #signup-form > * {
-        margin: 1.25em 0 0 0; }
-      #signup-form .message {
-        bottom: -1.5em;
-        font-size: 0.9em;
-        height: 1em;
-        left: 0;
-        line-height: inherit;
-        margin-top: 0;
-        position: absolute; } }
 
 /* Footer */
 #footer {
