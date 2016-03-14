@@ -16,7 +16,7 @@
 			// Force HTTPS
 			var host = "techbookfest.github.io", protocol = "https:";
 			if (location.host === host && location.protocol !== protocol) {
-				location.protocol = protocol;
+				location.protocol = protocol.slice(0, -1); // Remove ":"
 			}
 		})();
 		</script>
