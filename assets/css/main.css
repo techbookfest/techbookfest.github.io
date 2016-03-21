@@ -55,7 +55,6 @@ body {
     min-width: 320px; } }
 
 html, body {
-  height: 100%;
   overflow-x: hidden;
   width: 100%; }
   @media screen and (max-height: 640px) {
@@ -79,7 +78,6 @@ body {
   background-color: #fff;
   padding: 6em 4em 4em 4em; }
   body > * {
-    position: relative;
     z-index: 2; }
   body.is-loading *, body.is-loading *:before, body.is-loading *:after {
     -moz-animation: none !important;
@@ -431,11 +429,8 @@ button,
   -webkit-transition: opacity 0.5s ease-in-out;
   -ms-transition: opacity 0.5s ease-in-out;
   transition: opacity 0.5s ease-in-out;
-  bottom: 4em;
   color: #606060;
-  left: 4em;
-  opacity: 0.5;
-  position: absolute; }
+  opacity: 0.5; }
   #footer .icons {
     margin: 0 0 0.5em 0; }
   #footer .copyright {

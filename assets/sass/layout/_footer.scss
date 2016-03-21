@@ -12,11 +12,11 @@
 
 	#footer {
 		@include vendor('transition', 'opacity 0.5s ease-in-out');
-		bottom: 4em;
+		// bottom: 4em;
 		color: _palette(fg-light);
-		left: 4em;
+		// left: 4em;
 		opacity: 0.5;
-		position: absolute;
+		// position: absolute;
 
 		.icons {
 			margin: 0 0 (_size(element-margin) * 0.25) 0;
