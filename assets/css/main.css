@@ -260,8 +260,22 @@ hr {
   hr.major {
     margin: 3em 0; }
 
+#faq dl {
+  padding-left: 0.5em;
+  margin-bottom: 1.5em; }
+
+#faq dt {
+  padding-left: 1em;
+  text-indent: -1em; }
+  #faq dt:before {
+    content: "Q. "; }
+
 #faq dd {
-  margin-bottom: 1em; }
+  margin-bottom: 0.5em;
+  padding-left: 1em;
+  text-indent: -1em; }
+  #faq dd:before {
+    content: "A. "; }
 
 /* Section/Article */
 section.special, article.special {

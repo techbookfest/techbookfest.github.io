@@ -1,7 +1,25 @@
 #faq {
 
+	dl {
+		padding-left: 0.5em;
+		margin-bottom: 1.5em;
+	}
+
+	dt {
+		padding-left: 1em;
+		text-indent: -1em;
+		&:before {
+			content:"Q. ";
+		}
+	}
+
 	dd {
-		margin-bottom: 1em;
+		margin-bottom: 0.5em;
+		padding-left: 1em;
+		text-indent: -1em;
+		&:before {
+			content:"A. ";
+		}
 	}
 
 }
