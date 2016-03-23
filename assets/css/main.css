@@ -362,7 +362,7 @@ button,
   background-color: #4C3F86;
   border-radius: 6px;
   border: 0;
-  color: #ffffff !important;
+  color: #ffffff;
   cursor: pointer;
   display: inline-block;
   font-weight: 700;
@@ -393,7 +393,9 @@ button,
   button:disabled,
   .button.disabled,
   .button:disabled {
-    opacity: 0.5; }
+    background-color: #382f63;
+    color: #e6e6e6;
+    cursor: default; }
 
 /* Header */
 #header h1 {

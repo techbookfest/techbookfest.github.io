@@ -24,7 +24,7 @@
 		background-color: _palette(accent, bg);
 		border-radius: _size(border-radius);
 		border: 0;
-		color: _palette(accent, fg-bold) !important;
+		color: _palette(accent, fg-bold);
 		cursor: pointer;
 		display: inline-block;
 		font-weight: _font(weight-bold);
@@ -45,7 +45,10 @@
 
 		&.disabled,
 		&:disabled {
-			opacity: 0.5;
+			// opacity: 0.5;
+			background-color: darken(_palette(accent, bg), 10);
+			color: darken(_palette(accent, fg-bold), 10);
+			cursor: default;
 		}
 
 		@include breakpoint(xsmall) {
