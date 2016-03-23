@@ -46,12 +46,10 @@
 		));
 		border-bottom: dotted 1px _palette(border2);
 		color: _palette(accent, bg);
-		text-decoration: none;
 
 		&:hover {
 			border-bottom-color: transparent;
 			color: _palette(accent, bg) !important;
-			text-decoration: none;
 		}
 	}
 
