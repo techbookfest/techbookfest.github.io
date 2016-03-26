@@ -18,6 +18,7 @@
   "homepage": "https://github.com/techbookfest/techbookfest.github.io#readme",
   "private": true,
   "devDependencies": {
+    "browser-sync": "^2.11.1",
     "gulp": "^3.9.1",
     "gulp-sass": "^2.2.0"
   }
