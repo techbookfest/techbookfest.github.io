@@ -12,13 +12,13 @@
 */
 
 	@include skel-breakpoints((
-		xlarge: '(max-width: 1680px)',
-		large: '(max-width: 1280px)',
-		medium: '(max-width: 980px)',
-		small: '(max-width: 736px)',
-		xsmall: '(max-width: 480px)',
-		xxsmall: '(max-width: 360px)',
-		short: '(max-height: 640px)'
+		xlarge: '(max-width: #{_breakpoint(xlarge)})',
+		large: '(max-width: #{_breakpoint(large)})',
+		medium: '(max-width: #{_breakpoint(medium)})',
+		small: '(max-width: #{_breakpoint(small)})',
+		xsmall: '(max-width: #{_breakpoint(xsmall)})',
+		xxsmall: '(max-width: #{_breakpoint(xxsmall)})',
+		short: '(max-height: #{_breakpoint(short)})'
 	));
 
 	@include skel-layout((

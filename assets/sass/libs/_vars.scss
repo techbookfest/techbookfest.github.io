@@ -11,6 +11,17 @@
 		bg-slide:			45s // (lower = faster, higher = slower)
 	);
 
+// Breakpoints.
+	$breakpoint: (
+		xlarge:	1680px,
+		large:	1280px,
+		medium:	980px,
+		small:	736px,
+		xsmall:	480px,
+		xxsmall:360px,
+		short:	640px
+	);
+
 // Size.
 	$size: (
 		border-radius:		6px,

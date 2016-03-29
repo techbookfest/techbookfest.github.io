@@ -32,3 +32,10 @@
 @function _size($keys...) {
 	@return val($size, $keys...);
 }
+
+/// Gets a breakpoint value.
+/// @param {string} $keys Key(s).
+/// @return {string} Value.
+@function _breakpoint($keys...) {
+	@return val($breakpoint, $keys...);
+}
