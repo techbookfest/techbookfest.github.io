@@ -72,6 +72,9 @@
 		border-color: _palette(fg-bold);
 		border-style: solid;
 		border-width: _size(border-width) 0 _size(border-width) _size(border-width);
+		&:last-child {
+			border-right-width: _size(border-width);;
+		}
 	}
 
 	p {
