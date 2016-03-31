@@ -98,9 +98,6 @@ body {
     body {
       padding: 5em 1.25em 1.25em 1.25em; } }
 
-main > * {
-  margin-bottom: 3em; }
-
 /* BG */
 #bg {
   position: fixed;
@@ -270,6 +267,12 @@ hr {
   margin: 2em 0; }
   hr.major {
     margin: 3em 0; }
+
+dl#schedule {
+  margin-bottom: 1rem; }
+  dl#schedule dt {
+    float: left;
+    min-width: 2.5rem; }
 
 #faq dl {
   padding-left: 0.5em;
