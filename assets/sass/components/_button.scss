@@ -46,9 +46,11 @@
 		&.disabled,
 		&:disabled {
 			// opacity: 0.5;
-			background-color: darken(_palette(accent, bg), 10);
-			color: darken(_palette(accent, fg-bold), 10);
+			border: 1px solid #999;
+			background-color: #fff;
+			color: #3c3c3c;
 			cursor: default;
+			pointer-events: none;
 		}
 
 		@include breakpoint(xsmall) {
