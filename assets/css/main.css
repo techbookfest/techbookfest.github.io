@@ -424,9 +424,11 @@ button,
   button:disabled,
   .button.disabled,
   .button:disabled {
-    background-color: #351cd5;
-    color: #e6e6e6;
-    cursor: default; }
+    border: 1px solid #999;
+    background-color: #fff;
+    color: #3c3c3c;
+    cursor: default;
+    pointer-events: none; }
 
 /* Header */
 #header h1 {
